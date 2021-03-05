@@ -31,6 +31,10 @@ body {
   color: #7DC8CC;
   font-family: "raleway", sans-serif;
   font-size: 3rem; }
+  @media screen and (max-width: 990px) {
+    .main__content .main__content__slogan {
+      font-size: 3rem;
+      padding-right: 4rem; } }
   @media screen and (max-width: 600px) {
     .main__content .main__content__slogan {
       font-size: 30px;
@@ -193,9 +197,5 @@ form {
   padding: 0 2rem 0 2rem;
   color: #7DC8CC;
   transition: transform .2s; }
-  @media screen and (max-width: 500px) {
-    .fa-instagram, .fa-facebook, .fa-whatsapp {
-      display: flex;
-      justify-content: center; } }
   .fa-instagram:hover, .fa-facebook:hover, .fa-whatsapp:hover {
     transform: scale(1.5); }

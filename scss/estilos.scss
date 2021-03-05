@@ -41,6 +41,10 @@ body {
             family: $font-secondary;
             size: 3rem;
         }
+        @media screen and (max-width: 990px) {
+            font-size: 3rem;
+            padding-right: 4rem;
+            }
         @media screen and (max-width: 600px) {
             font-size: 30px;
             padding-right: 3rem;
@@ -235,10 +239,6 @@ form{
     padding: 0 2rem 0 2rem;
     color:$color-primary;
     transition: transform .2s;
-    @media screen and (max-width: 500px) {
-        display: flex;
-        justify-content: center;
-    }
     &:hover{
         transform: scale(1.5);
     }
