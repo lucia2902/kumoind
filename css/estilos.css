@@ -33,10 +33,18 @@ body {
   font-size: 3rem; }
   @media screen and (max-width: 600px) {
     .main__content .main__content__slogan {
-      font-size: 2rem; } }
+      font-size: 30px;
+      padding-right: 3rem; } }
+  @media screen and (max-width: 370px) {
+    .main__content .main__content__slogan {
+      font-size: 25px;
+      padding-right: 3rem; } }
 
 .main__content img {
   margin: auto; }
+  @media screen and (max-width: 600px) {
+    .main__content img {
+      width: 80%; } }
 
 /* nosotros */
 .description .description__text h1 {
