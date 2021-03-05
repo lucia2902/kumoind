@@ -1,4 +1,3 @@
-/* variables */
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@800&family=Raleway:wght@600&display=swap");
 * {
   padding: 0;
@@ -186,5 +185,9 @@ form {
   padding: 0 2rem 0 2rem;
   color: #7DC8CC;
   transition: transform .2s; }
+  @media screen and (max-width: 500px) {
+    .fa-instagram, .fa-facebook, .fa-whatsapp {
+      display: flex;
+      justify-content: center; } }
   .fa-instagram:hover, .fa-facebook:hover, .fa-whatsapp:hover {
     transform: scale(1.5); }
